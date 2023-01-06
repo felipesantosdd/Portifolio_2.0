@@ -12,9 +12,9 @@ function App() {
         height: '100vh'
       }
       }
-        snowflakeCount={750}
-        radius={[0.5, 3.5]}
-        speed={[0.5, 2.5]}
+        snowflakeCount={200}
+        radius={[0.5, 1.5]}
+        speed={[0.5, 2]}
         wind={[1, 10]}
       />
       <Reader></Reader>
