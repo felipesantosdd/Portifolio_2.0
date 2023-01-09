@@ -10,6 +10,5 @@ export const Container = styled.div`
     color: white;
     width: 100%;
   }
-
-
   `
+

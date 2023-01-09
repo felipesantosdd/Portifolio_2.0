@@ -1,7 +1,9 @@
 import Snowfall from 'react-snowfall';
+import { About } from './components/About/about';
 import { Reader } from './components/Header/header';
 import { Main } from './components/Main/main';
-import { Projects } from './components/Projects/projects';
+import { ProjectsComponent } from './components/Projects/projects';
+import { UserProvider } from './Context/user.Context';
 
 function App() {
   return (
@@ -17,10 +19,13 @@ function App() {
         speed={[0.5, 2]}
         wind={[1, 10]}
       />
-      <Reader></Reader>
-      <Main></Main>
-      <Projects></Projects>
+      <UserProvider>
 
+        <Reader />
+        <Main />
+        <ProjectsComponent />
+        <About />
+      </UserProvider>
     </>
 
 

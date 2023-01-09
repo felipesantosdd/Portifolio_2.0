@@ -1,17 +1,23 @@
-import React from "react"
-import { ReactDOM } from "react"
+import React, { useContext } from "react"
 import { Container } from "./projects.styled"
-import project00 from "../../assets/projects/00.png"
+import { Card } from "../Card/card"
+import { UserContext } from "../../Context/user.Context"
 
 
-export function Projects() {
+export function ProjectsComponent() {
 
-    const projejects = [
-    ]
+    const { projects } = useContext(UserContext)
+    console.log(projects)
+
 
     return (
         <Container>
             <h2>Projects</h2>
+            {projects.map((ele) => {
+                return (
+                    <Card key={ele.name} img={ele.image} name={ele.name} description={ele.description} />
+                )
+            })}
         </Container>
     )
 }
