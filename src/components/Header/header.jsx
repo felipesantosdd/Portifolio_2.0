@@ -8,12 +8,6 @@ function Reader() {
             <LogoStyle img={Logo}>
                 <img src={Logo} alt="Logo" />
             </LogoStyle>
-            <OptionsStyle>
-                <ButtonStyle>Home</ButtonStyle>
-                <ButtonStyle>Works</ButtonStyle>
-                <ButtonStyle>About-me</ButtonStyle>
-                <ButtonStyle>Contacts</ButtonStyle>
-            </OptionsStyle>
         </HeaderStyle>
     )
 }

@@ -1,5 +1,6 @@
 import Snowfall from 'react-snowfall';
 import { About } from './components/About/about';
+import { Contact } from './components/Contact/Contact';
 import { Reader } from './components/Header/header';
 import { Main } from './components/Main/main';
 import { ProjectsComponent } from './components/Projects/projects';
@@ -25,6 +26,7 @@ function App() {
         <Main />
         <ProjectsComponent />
         <About />
+        <Contact />
       </UserProvider>
     </>
 
