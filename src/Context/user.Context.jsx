@@ -12,18 +12,19 @@ export function UserProvider({ children }) {
             name: 'Controle Financeiro 1.0',
             image: project00,
             description: 'Esse é um projeto de controle financeiro  que permite ao usuário gerenciar suas finanças pessoais de maneira organizada. Ele permite adicionar as entradas de dinheiro, como salários e outros tipos de rendimento, e as saídas, como contas a pagar e despesas. O controle financeiro também fornece uma visão geral do saldo total no caixa, mostrando as entradas, despesas e o saldo atual. Seu codigo backend e frontend pode ser encontrado no meu gitHub.',
-            link: "https://caixa-six.vercel.app/"
+            link: "https://github.com/Kenzie-Academy-Brasil-Developers/Nu_Kenzie"
         },
         {
             name: 'TechPosters',
             image: project02,
-            description: 'Esse foi um projeto que emula uma rede social, sendo possivel criar conta, cadastrar usuario, criar posts, fazer amizades e curtir posts de outros usuarios.',
-            link: 'https://stunning-chainsaw-734400ba.pages.github.io/'
+            description: 'Esse projeto é uma rede social simulada, onde é possível criar uma conta, cadastrar um usuário, criar postagens, fazer amizades e curtir postagens de outros usuários.',
+            link: 'https://github.com/Kenzie-Academy-Brasil-Developers/M1_Rede_Social'
         },
         {
             name: 'Kenzie Hub',
             image: project01,
             description: 'Esse foi um projeto que emula uma rede social para devs, onde cada usuario consegue cadastrar suas tecnologias',
+            link: 'https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie_Hub'
         }
 
     ]

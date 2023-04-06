@@ -7,7 +7,7 @@ import { UserContext } from "../../Context/user.Context"
 export function ProjectsComponent() {
 
     const { projects } = useContext(UserContext)
-    console.log(projects)
+
 
 
     return (
@@ -15,7 +15,16 @@ export function ProjectsComponent() {
             <h2>Projects</h2>
             {projects.map((ele) => {
                 return (
-                    <Card key={ele.name} img={ele.image} name={ele.name} description={ele.description} />
+                    <a href={ele.link}>
+                        <Card
+                            key={ele.name}
+                            img={ele.image}
+                            name={ele.name}
+                            description={ele.description}
+                            target="_blank"
+                        />
+                    </a>
+
                 )
             })}
         </Container>
