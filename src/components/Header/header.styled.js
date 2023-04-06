@@ -10,7 +10,7 @@ const HeaderStyle = styled.header`
     @media (max-width: 730px) {
         flex-direction: column;
         height: auto;
-        padding: 20px 0;
+        padding: 20px 0 50px ;
     }
 `
 

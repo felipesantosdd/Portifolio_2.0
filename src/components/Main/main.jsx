@@ -13,7 +13,7 @@ function Main() {
                 <h1>Felipe S. Oliver</h1>
                 <h3>FullStacks Developer</h3>
                 <h2>
-                    Sou um dev fullstack com experiência em diversas tecnologias e pronto para encarar qualquer projeto.
+                    Desenvolvedor FullStack com experiência em diversas tecnologias e pronto para encarar qualquer projeto.
                 </h2>
                 <ButtonStyle>Contate-me</ButtonStyle>
             </BioStyle>
