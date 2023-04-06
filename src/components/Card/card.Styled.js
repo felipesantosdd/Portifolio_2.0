@@ -5,6 +5,7 @@ export const CardStyle = styled.div`
     height: 400px;
     border: 1px solid white;
     margin-bottom: 50px;
+    text-decoration: none;
   `
 
 export const CardImg = styled.div`
@@ -25,6 +26,7 @@ export const CardName = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     color: white;
+    text-decoration: none;
 `
 
 export const CardDescription = styled.div`
@@ -38,4 +40,5 @@ export const CardDescription = styled.div`
   text-align: center;
   overflow: auto;
   align-items: center;
+  text-decoration: none;
   `
