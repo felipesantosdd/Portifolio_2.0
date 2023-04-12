@@ -18,7 +18,7 @@ function Main() {
                 <ButtonStyle>Contate-me</ButtonStyle>
             </BioStyle>
             <TransitionStyle>
-                <h2>Com grandes poderes vem grandes contas de luz...</h2>
+                <h2>A documentação é o escudo do programador.</h2>
             </TransitionStyle>
 
 

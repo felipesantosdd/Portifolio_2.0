@@ -5,6 +5,7 @@ import { Reader } from './components/Header/header';
 import { Main } from './components/Main/main';
 import { ProjectsComponent } from './components/Projects/projects';
 import { UserProvider } from './Context/user.Context';
+import { Carrosel } from './components/Carrosel/carrosel';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
 
         <Reader />
         <Main />
+        <Carrosel />
         <ProjectsComponent />
         <About />
         <Contact />
