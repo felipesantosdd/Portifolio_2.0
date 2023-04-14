@@ -5,10 +5,7 @@ import { ButtonStyle } from "../button.styled"
 function Reader() {
     return (
         <HeaderStyle>
-            <LogoStyle img={Logo}>
-                <img src={Logo} alt="Logo" />
-            </LogoStyle>
-        </HeaderStyle>
+        </HeaderStyle >
     )
 }
 
