@@ -3,12 +3,20 @@ import project00 from "../assets/projects/00.png"
 import project01 from "../assets/projects/01.png"
 import project02 from "../assets/projects/02.png"
 import Node from "../assets/projects/Node.png"
+import Fullstack from "../assets/projects/Fullstack.png"
 
 export const UserContext = createContext()
 
 
 export function UserProvider({ children }) {
     const projects = [
+        {
+            name: 'Desafio Fullstack',
+            image: Fullstack,
+            description: 'Este projeto tem como objetivo fornecer uma maneira fácil e eficiente de gerenciar contatos. O usuário pode adicionar e excluir contatos, além de visualizar todos os contatos armazenados, Para a construção do projeto, utilizei o framework Next.js para a construção do frontend e o Node.js para a construção do backend. Utilizei também o banco de dados Postgres para armazenar as informações dos contatos.',
+            front: 'https://github.com/felipesantosdd/Desafio_fullstack_Frontend',
+            back: 'https://github.com/felipesantosdd/Desafio_fullstack_Backend',
+        },
         {
             name: 'Cinema Kenzie',
             image: Node,

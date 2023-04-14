@@ -11,3 +11,15 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
 `
+
+export function newOrder(producucts) {
+    const order = {
+        cod: '0001',
+        products: 'products',
+        client: 'client',
+        total: 'total',
+    }
+
+    window.print(order)
+    return order
+}
