@@ -20,7 +20,7 @@ export function Card({ img, name, description, front, production, back }) {
                     back && (<a href={back}><Button variant="outlined">Back</Button></a>)
                 }
                 {
-                    production && (<a href={back}><Button variant="outlined">Production</Button></a>)
+                    production && (<a href={production}><Button variant="outlined">Production</Button></a>)
                 }
             </CardLink>
 

@@ -4,6 +4,7 @@ import project01 from "../assets/projects/01.png"
 import project02 from "../assets/projects/02.png"
 import Node from "../assets/projects/Node.png"
 import Fullstack from "../assets/projects/Fullstack.png"
+import CSV from "../assets/projects/CSV Balance.png"
 
 export const UserContext = createContext()
 
@@ -11,11 +12,20 @@ export const UserContext = createContext()
 export function UserProvider({ children }) {
     const projects = [
         {
+            name: 'Saldo Facil',
+            image: CSV,
+            description: 'Bem-vindo ao SaldoFacil, um aplicativo que permite aos usuários fazer upload de um arquivo CSV contendo suas informações de saldo e documento. A aplicação então processa e armazena os dados em uma tabela com documento, saldo e data, permitindo que os usuários visualizem e gerenciem seus saldos de forma simples e fácil. O aplicativo também inclui recursos de autenticação segura com e-mail e senha criptografados, além de recuperação de senha para uma experiência de usuário tranquila.',
+            front: 'https://github.com/felipesantosdd/Teste_Tecnico_Front',
+            back: 'https://github.com/felipesantosdd/Teste_Tecnico_Back',
+            production: 'https://csv-balance.vercel.app/'
+        },
+        {
             name: 'Desafio Fullstack',
             image: Fullstack,
             description: 'Este projeto tem como objetivo fornecer uma maneira fácil e eficiente de gerenciar contatos. O usuário pode adicionar e excluir contatos, além de visualizar todos os contatos armazenados, Para a construção do projeto, utilizei o framework Next.js para a construção do frontend e o Node.js para a construção do backend. Utilizei também o banco de dados Postgres para armazenar as informações dos contatos.',
             front: 'https://github.com/felipesantosdd/Desafio_fullstack_Frontend',
             back: 'https://github.com/felipesantosdd/Desafio_fullstack_Backend',
+            production: 'https://desafio-fullstack-frontend.vercel.app/'
         },
         {
             name: 'Cinema Kenzie',
@@ -31,21 +41,7 @@ export function UserProvider({ children }) {
             back: "https://github.com/felipesantosdd/Caixa_DataBase",
             production: "https://resourcemaster.vercel.app/login"
 
-        },
-        {
-            name: 'Kenzie Hub',
-            image: project01,
-            description: 'O projeto Kenzie Hub é uma aplicação web que tem como objetivo criar um ambiente onde desenvolvedores possam se cadastrar, adicionar suas tecnologias de interesse e entrar em contato com outros desenvolvedores que trabalham com essas mesmas tecnologias.',
-            front: 'https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie_Hub',
         }
-        ,
-        {
-            name: 'TechPosters',
-            image: project02,
-            description: 'O projeto Tech Posters é uma rede social simulada que tem como objetivo permitir que os usuários criem uma conta, cadastrem suas informações pessoais, criem postagens, façam amizades e curtam as postagens de outros usuários. A aplicação é baseada em uma API desenvolvida em Node.js que gerencia as funcionalidades de criação de usuários, criação e curtidas de postagens, bem como as amizades entre os usuários.',
-            front: 'https://github.com/Kenzie-Academy-Brasil-Developers/m2-entrega-blog-m2-supercleiton',
-        }
-
 
     ]
 

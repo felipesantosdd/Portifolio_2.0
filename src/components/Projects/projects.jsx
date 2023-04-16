@@ -20,9 +20,9 @@ export function ProjectsComponent() {
                             key={ele.name}
                             img={ele.image}
                             name={ele.name}
-                            front={ele.front}
-                            production={ele.production}
+                            front={ele?.front}
                             back={ele?.back}
+                            production={ele?.production}
                             description={ele.description}
                             target="_blank"
                         />
